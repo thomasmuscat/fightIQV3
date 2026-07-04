@@ -1,4 +1,4 @@
-ame: FightIQ Data Engine Ultra
+name: FightIQ Data Engine Ultra
 
 on:
   workflow_dispatch:
@@ -23,8 +23,6 @@ on:
         description: "Max fight detail pages for test. Empty = all"
         required: false
         default: "50"
-  schedule:
-    - cron: "0 5 * * 1"
 
 jobs:
   scrape:
